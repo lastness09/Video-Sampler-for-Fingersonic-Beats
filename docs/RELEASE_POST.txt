@@ -1,0 +1,33 @@
+Title
+Video Sampler for Fingersonic Beats v0.4.6 | Play Video with Your Drum Pads
+
+Introduction
+Turn local video clips into a playable instrument. Assign a video to each of ten Fingersonic Beats pads, choose its clip range, and trigger picture and sound with MIDI. Audio goes directly into Logic Pro for recording, bouncing, and mixing.
+
+Features
+• Ten independently assigned video pads.
+• Per-pad clip trimming, MIDI Learn, manual note mapping, and velocity response.
+• Live multiview video playback and up to 16 audio voices.
+• Pad settings saved with the Logic project; keep the original videos available separately.
+• macOS 13.0 or later, with Apple Silicon and Intel binaries included.
+
+Install and use
+This is an AUv3 instrument installed with the complete Video Sampler.app. Drag the app into Applications, approve its first launch if needed, then load it in Logic:
+AU Instruments → Fingersonic → Video Sampler → Stereo
+
+First launch
+This test build uses ad-hoc signing and is not notarized by Apple. If macOS blocks it, try opening the app, then use System Settings → Privacy & Security → Open Anyway after checking the source. A complete guide is included.
+
+New in v0.4.6
+A Fingersonic family video-sampler icon, support for discovering Logic Pro Creator Studio from the Open Logic Pro button, and complete English installation and usage documentation.
+
+Downloads
+• VideoSampler-0.4.6-AUv3-macOS.zip: ready-to-use app container and user guide.
+• VideoSampler-0.4.6-Source.zip: Xcode project, source code, tests, and build scripts.
+• VideoSampler-0.4.6-Complete.zip: both of the above, plus publishing material, verification notes, and a file-integrity manifest.
+
+Compatibility and workflow
+Logic Pro is the primary host; other AUv3 instrument hosts have not been individually verified. No AUv2 .component, VST3, Windows, or iOS package is included. Offline bounce exports audio. The plug-in does not export a combined video file; use a separate screen-recording workflow for a performance video.
+
+Publisher note
+Add your download links and contact details when posting. Upload SHA256SUMS.txt alongside the ZIP files so readers can verify their downloads.

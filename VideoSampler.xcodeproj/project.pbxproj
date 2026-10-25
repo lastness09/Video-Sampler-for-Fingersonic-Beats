@@ -1,0 +1,170 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A00000000000000000000001 /* VideoSamplerHostApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000001 /* VideoSamplerHostApp.swift */; };
+		A00000000000000000000002 /* HostContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000002 /* HostContentView.swift */; };
+		A00000000000000000000003 /* VideoSamplerAU.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B00000000000000000000020 /* VideoSamplerAU.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A00000000000000000000004 /* AppIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000004 /* AppIcon.icns */; };
+		A00000000000000000000005 /* AppIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000004 /* AppIcon.icns */; };
+		A00000000000000000000011 /* PadState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000011 /* PadState.swift */; };
+		A00000000000000000000012 /* VideoSamplerAudioUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000012 /* VideoSamplerAudioUnit.swift */; };
+		A00000000000000000000013 /* VideoClipLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000013 /* VideoClipLoader.swift */; };
+		A00000000000000000000014 /* VideoSamplerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000014 /* VideoSamplerViewModel.swift */; };
+		A00000000000000000000015 /* VideoSamplerMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000015 /* VideoSamplerMainView.swift */; };
+		A00000000000000000000016 /* AudioUnitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000016 /* AudioUnitViewController.swift */; };
+		A00000000000000000000017 /* VideoSamplerDSPBridge.mm in Sources */ = {isa = PBXBuildFile; fileRef = B0000000000000000000001C /* VideoSamplerDSPBridge.mm */; };
+		A00000000000000000000018 /* FingersonicBeatsPads.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B0000000000000000000001D /* FingersonicBeatsPads.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C00000000000000000000001 = {isa = PBXContainerItemProxy; containerPortal = E00000000000000000000001 /* Project object */; proxyType = 1; remoteGlobalIDString = F00000000000000000000002; remoteInfo = VideoSamplerAU; };
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D00000000000000000000001 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (A00000000000000000000003 /* VideoSamplerAU.appex in Embed App Extensions */, );
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B00000000000000000000001 /* VideoSamplerHostApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoSamplerHostApp.swift; sourceTree = "<group>"; };
+		B00000000000000000000002 /* HostContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostContentView.swift; sourceTree = "<group>"; };
+		B00000000000000000000003 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B00000000000000000000004 /* AppIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Resources/AppIcon.icns; sourceTree = "<group>"; };
+		B00000000000000000000010 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B00000000000000000000011 /* PadState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PadState.swift; sourceTree = "<group>"; };
+		B00000000000000000000012 /* VideoSamplerAudioUnit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoSamplerAudioUnit.swift; sourceTree = "<group>"; };
+		B00000000000000000000013 /* VideoClipLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoClipLoader.swift; sourceTree = "<group>"; };
+		B00000000000000000000014 /* VideoSamplerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoSamplerViewModel.swift; sourceTree = "<group>"; };
+		B00000000000000000000015 /* VideoSamplerMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoSamplerMainView.swift; sourceTree = "<group>"; };
+		B00000000000000000000016 /* AudioUnitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioUnitViewController.swift; sourceTree = "<group>"; };
+		B00000000000000000000017 /* VideoSamplerDSPKernel.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = VideoSamplerDSPKernel.hpp; sourceTree = "<group>"; };
+		B00000000000000000000018 /* VideoSamplerAUProcessHelper.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = VideoSamplerAUProcessHelper.hpp; sourceTree = "<group>"; };
+		B00000000000000000000019 /* VideoSamplerAU-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VideoSamplerAU-Bridging-Header.h"; sourceTree = "<group>"; };
+		B0000000000000000000001A /* VideoSamplerAU.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VideoSamplerAU.entitlements; sourceTree = "<group>"; };
+		B0000000000000000000001B /* VideoSamplerDSPBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoSamplerDSPBridge.h; sourceTree = "<group>"; };
+		B0000000000000000000001C /* VideoSamplerDSPBridge.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = VideoSamplerDSPBridge.mm; sourceTree = "<group>"; };
+		B0000000000000000000001D /* FingersonicBeatsPads.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FingersonicBeatsPads.jpg; sourceTree = "<group>"; };
+		B00000000000000000000020 /* VideoSamplerAU.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = VideoSamplerAU.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		B00000000000000000000021 /* Video Sampler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Video Sampler.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D00000000000000000000011 = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		D00000000000000000000012 = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E00000000000000000000002 = {
+			isa = PBXGroup;
+			children = (
+				E00000000000000000000010 /* VideoSamplerHost */,
+				E00000000000000000000011 /* VideoSamplerAU */,
+				E00000000000000000000020 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E00000000000000000000010 /* VideoSamplerHost */ = {
+			isa = PBXGroup;
+			path = VideoSamplerHost;
+			sourceTree = "<group>";
+			children = (B00000000000000000000001, B00000000000000000000002, B00000000000000000000003, B00000000000000000000004, );
+		};
+		E00000000000000000000011 /* VideoSamplerAU */ = {
+			isa = PBXGroup;
+			path = VideoSamplerAU;
+			sourceTree = "<group>";
+			children = (E00000000000000000000012 /* Shared */, E00000000000000000000013 /* Audio */, E00000000000000000000014 /* DSP */, E00000000000000000000015 /* UI */, E00000000000000000000016 /* Resources */, B00000000000000000000010, B0000000000000000000001A, );
+		};
+		E00000000000000000000012 /* Shared */ = {isa = PBXGroup; path = Shared; sourceTree = "<group>"; children = (B00000000000000000000011, ); };
+		E00000000000000000000013 /* Audio */ = {isa = PBXGroup; path = Audio; sourceTree = "<group>"; children = (B00000000000000000000012, B00000000000000000000013, ); };
+		E00000000000000000000014 /* DSP */ = {isa = PBXGroup; path = DSP; sourceTree = "<group>"; children = (B00000000000000000000017, B00000000000000000000018, B0000000000000000000001B, B0000000000000000000001C, B00000000000000000000019, ); };
+		E00000000000000000000015 /* UI */ = {isa = PBXGroup; path = UI; sourceTree = "<group>"; children = (B00000000000000000000014, B00000000000000000000015, B00000000000000000000016, ); };
+		E00000000000000000000016 /* Resources */ = {isa = PBXGroup; path = Resources; sourceTree = "<group>"; children = (B0000000000000000000001D, ); };
+		E00000000000000000000020 /* Products */ = {isa = PBXGroup; name = Products; sourceTree = "<group>"; children = (B00000000000000000000021, B00000000000000000000020, ); };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F00000000000000000000001 /* Video Sampler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C00000000000000000000011;
+			buildPhases = (D00000000000000000000021, D00000000000000000000011, D00000000000000000000031, D00000000000000000000001, );
+			buildRules = ();
+			dependencies = (C00000000000000000000002, );
+			name = "Video Sampler";
+			productName = VideoSamplerHost;
+			productReference = B00000000000000000000021;
+			productType = "com.apple.product-type.application";
+		};
+		F00000000000000000000002 /* VideoSamplerAU */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C00000000000000000000012;
+			buildPhases = (D00000000000000000000022, D00000000000000000000012, D00000000000000000000032, );
+			buildRules = ();
+			dependencies = ();
+			name = VideoSamplerAU;
+			productName = VideoSamplerAU;
+			productReference = B00000000000000000000020;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E00000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {BuildIndependentTargetsInParallel = 1; LastSwiftUpdateCheck = 2660; LastUpgradeCheck = 2660; TargetAttributes = {F00000000000000000000001 = {CreatedOnToolsVersion = 26.0; }; F00000000000000000000002 = {CreatedOnToolsVersion = 26.0; }; }; };
+			buildConfigurationList = C00000000000000000000010;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (en, Base, );
+			mainGroup = E00000000000000000000002;
+			productRefGroup = E00000000000000000000020;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (F00000000000000000000001, F00000000000000000000002, );
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D00000000000000000000031 = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (A00000000000000000000004 /* AppIcon.icns in Resources */, ); runOnlyForDeploymentPostprocessing = 0; };
+		D00000000000000000000032 = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (A00000000000000000000018 /* FingersonicBeatsPads.jpg in Resources */, A00000000000000000000005 /* AppIcon.icns in Resources */, ); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D00000000000000000000021 = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (A00000000000000000000001, A00000000000000000000002, ); runOnlyForDeploymentPostprocessing = 0; };
+		D00000000000000000000022 = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (A00000000000000000000011, A00000000000000000000012, A00000000000000000000013, A00000000000000000000014, A00000000000000000000015, A00000000000000000000016, A00000000000000000000017, ); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C00000000000000000000002 = {isa = PBXTargetDependency; target = F00000000000000000000002 /* VideoSamplerAU */; targetProxy = C00000000000000000000001; };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C10000000000000000000001 = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; CLANG_CXX_LANGUAGE_STANDARD = "gnu++20"; CLANG_ENABLE_MODULES = YES; CLANG_ENABLE_OBJC_ARC = YES; MACOSX_DEPLOYMENT_TARGET = 13.0; SDKROOT = macosx; SWIFT_VERSION = 5.0; }; name = Debug; };
+		C10000000000000000000002 = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; CLANG_CXX_LANGUAGE_STANDARD = "gnu++20"; CLANG_ENABLE_MODULES = YES; CLANG_ENABLE_OBJC_ARC = YES; MACOSX_DEPLOYMENT_TARGET = 13.0; SDKROOT = macosx; SWIFT_COMPILATION_MODE = wholemodule; SWIFT_VERSION = 5.0; }; name = Release; };
+		C10000000000000000000011 = {isa = XCBuildConfiguration; buildSettings = {CODE_SIGN_STYLE = Automatic; COMBINE_HIDPI_IMAGES = YES; CURRENT_PROJECT_VERSION = 16; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = VideoSamplerHost/Info.plist; LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/../Frameworks", ); MARKETING_VERSION = 0.4.6; PRODUCT_BUNDLE_IDENTIFIER = com.fingersonic.VideoSampler; PRODUCT_NAME = "Video Sampler"; SWIFT_EMIT_LOC_STRINGS = YES; }; name = Debug; };
+		C10000000000000000000012 = {isa = XCBuildConfiguration; buildSettings = {CODE_SIGN_STYLE = Automatic; COMBINE_HIDPI_IMAGES = YES; CURRENT_PROJECT_VERSION = 16; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = VideoSamplerHost/Info.plist; LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/../Frameworks", ); MARKETING_VERSION = 0.4.6; PRODUCT_BUNDLE_IDENTIFIER = com.fingersonic.VideoSampler; PRODUCT_NAME = "Video Sampler"; SWIFT_EMIT_LOC_STRINGS = YES; }; name = Release; };
+		C10000000000000000000021 = {isa = XCBuildConfiguration; buildSettings = {APPLICATION_EXTENSION_API_ONLY = YES; CODE_SIGN_ENTITLEMENTS = VideoSamplerAU/VideoSamplerAU.entitlements; CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 16; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = VideoSamplerAU/Info.plist; LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/../../../../Frameworks", ); MARKETING_VERSION = 0.4.6; PRODUCT_BUNDLE_IDENTIFIER = com.fingersonic.VideoSampler.AudioUnit; PRODUCT_NAME = VideoSamplerAU; SKIP_INSTALL = YES; SWIFT_OBJC_BRIDGING_HEADER = "VideoSamplerAU/DSP/VideoSamplerAU-Bridging-Header.h"; SWIFT_OBJC_INTEROP_MODE = objcxx; SWIFT_VERSION = 5.0; }; name = Debug; };
+		C10000000000000000000022 = {isa = XCBuildConfiguration; buildSettings = {APPLICATION_EXTENSION_API_ONLY = YES; CODE_SIGN_ENTITLEMENTS = VideoSamplerAU/VideoSamplerAU.entitlements; CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 16; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = VideoSamplerAU/Info.plist; LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/../../../../Frameworks", ); MARKETING_VERSION = 0.4.6; PRODUCT_BUNDLE_IDENTIFIER = com.fingersonic.VideoSampler.AudioUnit; PRODUCT_NAME = VideoSamplerAU; SKIP_INSTALL = YES; SWIFT_OBJC_BRIDGING_HEADER = "VideoSamplerAU/DSP/VideoSamplerAU-Bridging-Header.h"; SWIFT_OBJC_INTEROP_MODE = objcxx; SWIFT_VERSION = 5.0; }; name = Release; };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C00000000000000000000010 = {isa = XCConfigurationList; buildConfigurations = (C10000000000000000000001, C10000000000000000000002, ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		C00000000000000000000011 = {isa = XCConfigurationList; buildConfigurations = (C10000000000000000000011, C10000000000000000000012, ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		C00000000000000000000012 = {isa = XCConfigurationList; buildConfigurations = (C10000000000000000000021, C10000000000000000000022, ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+	};
+	rootObject = E00000000000000000000001 /* Project object */;
+}

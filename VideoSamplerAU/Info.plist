@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleDisplayName</key>
+    <string>Video Sampler AU</string>
+    <key>CFBundleIconFile</key>
+    <string>AppIcon</string>
+    <key>CFBundleExecutable</key>
+    <string>$(EXECUTABLE_NAME)</string>
+    <key>CFBundleIdentifier</key>
+    <string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleName</key>
+    <string>$(PRODUCT_NAME)</string>
+    <key>CFBundlePackageType</key>
+    <string>$(PRODUCT_BUNDLE_PACKAGE_TYPE)</string>
+    <key>CFBundleShortVersionString</key>
+    <string>0.4.6</string>
+    <key>CFBundleVersion</key>
+    <string>16</string>
+    <key>NSExtension</key>
+    <dict>
+        <key>NSExtensionAttributes</key>
+        <dict>
+            <key>AudioComponents</key>
+            <array>
+                <dict>
+                    <key>description</key>
+                    <string>MIDI-triggered audio and video clip sampler</string>
+                    <key>manufacturer</key>
+                    <string>FgSn</string>
+                    <key>name</key>
+                    <string>Fingersonic: Video Sampler</string>
+                    <key>sandboxSafe</key>
+                    <true/>
+                    <key>subtype</key>
+                    <string>vsmr</string>
+                    <key>tags</key>
+                    <array>
+                        <string>Sampler</string>
+                        <string>Synthesizer</string>
+                    </array>
+                    <key>type</key>
+                    <string>aumu</string>
+                    <key>version</key>
+                    <integer>262150</integer>
+                </dict>
+            </array>
+        </dict>
+        <key>NSExtensionPointIdentifier</key>
+        <string>com.apple.AudioUnit-UI</string>
+        <key>NSExtensionPrincipalClass</key>
+        <string>$(PRODUCT_MODULE_NAME).AudioUnitViewController</string>
+    </dict>
+</dict>
+</plist>
