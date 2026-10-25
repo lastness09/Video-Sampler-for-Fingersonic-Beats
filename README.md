@@ -2,6 +2,8 @@
 
 macOS AUv3 instrument · v0.4.6 (build 16)
 
+<img src="VideoSamplerHost/Resources/AppIcon.png" alt="Video Sampler for Fingersonic Beats icon" width="144">
+
 Play local video clips with MIDI and send their audio directly into your DAW. Ten pads follow the Fingersonic Beats hardware layout, with independent video files, clip ranges, and MIDI notes. Logic Pro is the primary host.
 
 ## Install and play
@@ -84,6 +86,8 @@ python3 scripts/package_release.py
 ```
 
 This builds the Universal app and writes an AUv3 ZIP, source ZIP, complete ZIP, offline guides, release-post text, and SHA-256 checksums under `dist/`. It does not upload files, replace the installed app, or grant trust automatically. Run regression tests separately before packaging; the packaging script only reports checks it actually performs.
+
+GitHub publication uses `zsh scripts/publish_to_github.sh`. The target is `lastness09/Video-Sampler-for-Fingersonic-Beats`; a GitHub CLI login for `lastness09` is required. See [Publishing](docs/PUBLISHING.md) for the account checks and release workflow.
 
 ## Project layout
 
